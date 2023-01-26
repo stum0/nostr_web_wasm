@@ -1,3 +1,3 @@
 # nostr_web_wasm
 
-test example with ```trunk serve```
+run ```trunk serve``` to test examples 
