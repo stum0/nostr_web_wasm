@@ -14,7 +14,7 @@ async fn async_main() {
     let bytes: Vec<u8> = array.to_vec();
 
     let nostr_pub_key = std::str::from_utf8(&bytes).unwrap();
-    debug!("lool {:?}", nostr_pub_key);
+    debug!("{:?}", nostr_pub_key);
 }
 
 #[wasm_bindgen(inline_js = "export async function pub_key() { 
